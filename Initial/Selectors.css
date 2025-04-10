@@ -1,0 +1,25 @@
+body{
+    background-color: antiquewhite;
+    font-size: 25px;
+}
+div>p{
+    color: rgb(155, 53, 22);
+}
+div p{
+    color:green;  
+    }
+
+
+    div>p{
+    
+    color:rgb(16, 44, 16); 
+    }
+
+    div +p{
+    
+    color:rgb(143, 46, 73); 
+    }
+
+    div ~p{
+    color:green; 
+    }

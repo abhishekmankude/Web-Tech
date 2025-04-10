@@ -1,0 +1,46 @@
+.rectangle{
+    border: 7px double rgb(70, 15, 3);
+    height: 400px;
+    width: 800px;
+    background-color: rgb(230, 133, 6);
+}
+
+.rectangle{
+
+    border: 6px groove black;
+    height: 200px;
+    width: 600px;
+    padding: 10px 40px;
+    margin: 100px 100px 100px 100px;
+    background-color: rgb(113, 109, 182);
+  
+}
+
+.rectangles{
+    display: flex;
+}
+
+
+.box1{
+    border: 7px double rgb(190, 76, 50);
+    height: 400px;
+    width: 400px;
+    background-color: rgb(230, 133, 6);
+    margin: 10px;
+}
+
+.box2{
+
+    border: 6px groove black;
+    height: 200px;
+    width: 100px;
+    padding: 10px 40px;
+    margin: 100px 100px 100px 100px;
+    background-color: rgb(91, 91, 38);
+
+}
+.boxes{
+    display: flex;
+    justify-content: flex-end;
+
+}
