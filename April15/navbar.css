@@ -1,0 +1,60 @@
+.navClass {
+    background-color: rgb(0, 0, 0);
+    border-radius: 2vh;
+    display: flex;
+    align-items: center;
+    padding: 1vh 2vh;
+
+
+}
+
+.navClass ul {
+    overflow:auto;
+
+}
+
+.navClass ul li {
+
+    float: left;
+    list-style: none;
+    padding: 2vh 2vh;
+    font-size: 3vh;
+    
+}
+
+.navClass ul li a {
+    text-decoration: none;
+   
+    color: white;
+
+}
+
+.navClass ul li a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 1vh;
+ 
+}#searchId {
+    margin-left: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+
+#searchId input {
+    padding-left: 30px;
+    height: 30px;
+    border-radius: 4px;
+    border: none;
+}
+body{
+background-color: rgb(128, 128, 124);
+}
+
+.search-icon {
+    position: absolute;
+    left: 10px;
+    width: 16px;   /* adjust size as needed */
+    height: 16px;
+}
